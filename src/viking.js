@@ -42,8 +42,8 @@ class War {
   addSaxon(saxon){this.saxonArmy.push(saxon)};
 
   vikingAttack(){
-    const saxonIndex = Math.floor(Math.random()*this.vikingArmy.length);
-    const vikingIndex = Math.floor(Math.random()*this.saxonArmy.length);
+    const vikingIndex = Math.floor(Math.random()*this.vikingArmy.length);
+    const saxonIndex = Math.floor(Math.random()*this.saxonArmy.length);
     const randomViking = this.vikingArmy[vikingIndex];
     const randomSaxon = this.saxonArmy[saxonIndex];
 
@@ -53,8 +53,8 @@ class War {
   }
 
   saxonAttack(){
-    const saxonIndex = Math.floor(Math.random()*this.vikingArmy.length);
-    const vikingIndex = Math.floor(Math.random()*this.saxonArmy.length);
+    const vikingIndex = Math.floor(Math.random()*this.vikingArmy.length);
+    const saxonIndex = Math.floor(Math.random()*this.saxonArmy.length);
     const randomViking = this.vikingArmy[vikingIndex];
     const randomSaxon = this.saxonArmy[saxonIndex];
 
